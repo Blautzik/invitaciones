@@ -1,3 +1,4 @@
+import Gallery from "./gallery/Gallery"
 import Header from "./Header"
 import Info from "./Info"
 
@@ -9,6 +10,7 @@ const InviContainer = () => {
         <div className="" id='aca'>
           <Info />
         </div>
+        <Gallery />
     </>
       )
     }
